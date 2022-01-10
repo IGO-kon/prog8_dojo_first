@@ -29,11 +29,34 @@ header{
     padding: 20px 40px;
 }
 
-.header_link{
+.header_link > ul{
     display: flex;
 }
 
-div.header_link > p{
+nav.header_link > ul > li{
     margin: auto;
     padding: 33px 20px;
+    
+}
+
+nav.header_link > ul > li >a{
+    color: #fff;
+    text-decoration: none;
+}
+
+.head_line{
+    padding: 100px 80px;
+    justify-content: left;
+}
+
+h1{
+    font-size: 140px;
+}
+
+h1 span{
+    color: #ff4a4a;
+}
+
+h2{
+    font-size: 60px;
 }
